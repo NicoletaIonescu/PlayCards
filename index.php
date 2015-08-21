@@ -42,12 +42,15 @@
    </ul>
 
 <hr>
-<?php if (isset($_GET['id'])) {
-    echo "Example :";
-    echo "<pre>";
-    var_dump($obj);
-    echo "</pre>";
- } ?>
+   <div style="background-color:#eee;text-align: center;">
+       <?php if (isset($_GET['id'])) {
+           echo "Example :";
+           echo "<pre>";
+           var_dump($obj);
+           echo "</pre>";
+       } ?>
+   </div>
+<hr>
 </body>
 </html>
 
