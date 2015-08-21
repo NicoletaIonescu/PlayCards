@@ -43,14 +43,15 @@
 
 <hr>
    <div style="background-color:#eee;text-align: center;">
-       <?php if (isset($_GET['id'])) {
-           echo "Example :";
-           echo "<pre>";
-           var_dump($obj);
-           echo "</pre>";
-       } ?>
+       <div style="text-align:left">
+           <?php if (isset($_GET['id'])) {
+               echo "Example :";
+               echo "<pre>";
+               var_dump($obj);
+               echo "</pre>";
+           } ?>
+       </div>
    </div>
-   test
 <hr>
 </body>
 </html>
